@@ -33,7 +33,7 @@ class LiveDataExtensionsTest {
         liveData.setSuccess(data)
 
         // then
-        assertEquals(Resource(ResourceState.SUCCESS, data, null), liveData.value)
+        assertEquals(Resource(ResourceState.SUCCESS, data, errorMessage), liveData.value)
     }
 
     @Test
