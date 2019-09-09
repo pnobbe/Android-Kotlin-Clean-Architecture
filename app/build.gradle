@@ -33,7 +33,8 @@ dependencies {
     implementation project(Modules.presentation)
 
     implementation Libraries.kotlin
-    implementation FirebaseLibraries.core
+    implementation FirebaseLibraries.analytics
+    implementation FirebaseLibraries.messaging
     implementation Libraries.crashlytics
 
     implementation SupportLibraries.design
@@ -50,8 +51,15 @@ dependencies {
     implementation Libraries.rxkotlin
 
     implementation Libraries.moshiConverter
+    implementation Libraries.workmanager
+    implementation Libraries.workmanagerRxjava // RxJava2 compatibility
+
 
     debugImplementation Libraries.leakCanaryAndroid
+}
+
+repositories {
+    google()
 }
 
 apply plugin: 'com.google.gms.google-services'

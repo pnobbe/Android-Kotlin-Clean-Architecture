@@ -28,10 +28,11 @@ object Versions {
 
     val googleAuth = "16.0.1"
 
-    val googleServices = "4.3.0"
+    val googleServices = "4.3.2"
 
-    val firebaseAuth = "16.0.4"
-    val firebaseCore = "16.0.4"
+    val firebaseAuth = "19.0.0"
+    val firebaseAnalytics = "17.2.0"
+    val firebaseMessaging = "20.0.0"
 
     val fabric = "1.30.0"
 
@@ -54,6 +55,7 @@ object Versions {
     val paperdb = "2.6"
     val moshi = "1.8.0"
     val lifecycle = "2.0.0"
+    val workmanager = "2.2.0"
     val leakCanary = "2.0-alpha-2"
     val crashlytics = "2.10.1"
     val koin = "2.0.0-beta-1"
@@ -92,6 +94,8 @@ object Libraries {
 
     val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
+    val workmanager = "androidx.work:work-runtime-ktx:${Versions.workmanager}"
+    val workmanagerRxjava = "androidx.work:work-rxjava2:${Versions.workmanager}"
 
     val leakCanaryAndroid = "com.squareup.leakcanary:leakcanary-android:${Versions.leakCanary}"
 
@@ -115,7 +119,8 @@ object GoogleLibraries {
 
 object FirebaseLibraries {
     val auth = "com.google.firebase:firebase-auth:${Versions.firebaseAuth}"
-    val core = "com.google.firebase:firebase-core:${Versions.firebaseCore}"
+    val messaging = "com.google.firebase:firebase-messaging:${Versions.firebaseMessaging}"
+    val analytics = "com.google.firebase:firebase-analytics:${Versions.firebaseAnalytics}"
 }
 
 object TestLibraries {
@@ -124,4 +129,5 @@ object TestLibraries {
     val mockitoKotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:${Versions.mockitoKotlin}"
     val mockitoInline = "org.mockito:mockito-inline:${Versions.mockitoInline}"
     val lifecycleTesting = "androidx.arch.core:core-testing:${Versions.lifecycle}"
+    val workmanagerTesting = "androidx.work:work-testing:${Versions.workmanager}"
 }

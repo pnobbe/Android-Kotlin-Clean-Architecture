@@ -1,27 +1,37 @@
 {
   "project_info": {
-    "project_number": "526437137953",
-    "firebase_url": "https://naming-is-hard-139bf.firebaseio.com",
-    "project_id": "naming-is-hard-139bf",
-    "storage_bucket": "naming-is-hard-139bf.appspot.com"
+    "project_number": "81641441783",
+    "firebase_url": "https://swabbr-poc.firebaseio.com",
+    "project_id": "swabbr-poc",
+    "storage_bucket": "swabbr-poc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:526437137953:android:9c4097694a30145b",
+        "mobilesdk_app_id": "1:81641441783:android:73450bd244de9e8e0d06f2",
         "android_client_info": {
           "package_name": "com.sanogueralorenzo.namingishard"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "81641441783-s937aopl5tst1k5k03m9macdif213a5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDBXu9z17eN5WLOUDLVkiP6QA6E0Y2zoeE"
+          "current_key": "AIzaSyA2_wTZxpzzFjD-_dcG-sRFNpA0by7n8jo"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81641441783-s937aopl5tst1k5k03m9macdif213a5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
