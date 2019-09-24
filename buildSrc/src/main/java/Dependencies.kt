@@ -1,5 +1,5 @@
 object ApplicationId {
-    val id = "com.sanogueralorenzo.namingishard"
+    val id = "com.laixer.core"
 }
 
 object Modules {
@@ -23,7 +23,7 @@ object Versions {
     val gradle = "3.4.2"
 
     val compileSdk = 28
-    val minSdk = 21
+    val minSdk = 24
     val targetSdk = 28
 
     val googleAuth = "16.0.1"
@@ -44,7 +44,7 @@ object Versions {
 
     val ktx = "1.0.0-alpha1"
 
-    val kotlin = "1.3.41"
+    val kotlin = "1.3.50"
     val timber = "4.7.1"
     val rxjava = "2.2.10"
     val rxkotlin = "2.3.0"

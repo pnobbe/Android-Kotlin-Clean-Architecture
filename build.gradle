@@ -22,6 +22,7 @@ allprojects {
     apply from: "$rootDir/detekt.gradle"
 
     repositories {
+        maven { url "https://dl.bintray.com/microsoftazuremobile/SDK" }
         maven { url 'https://maven.fabric.io/public' }
         maven { url 'https://jitpack.io' }
         google()

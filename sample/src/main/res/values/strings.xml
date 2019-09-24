@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Posts</string>
-    <string name="screen_post_details_title">Post Details</string>
-    <string name="screen_post_list_title">Post List</string>
+    <string name="app_name">Vlogs</string>
+    <string name="screen_vlog_details_title">Vlog Details</string>
+    <string name="screen_vlog_list_title">Vlog List</string>
     <string name="screen_user_details_title">User Details</string>
     <string name="error">Error</string>
     <string name="retry">Retry</string>
